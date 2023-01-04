@@ -15,7 +15,9 @@ function Product(props) {
 				alt={productName}
 			/>
 			<div className="description">
-				<p>{productName}</p>
+				<p>
+					<b>{productName}</b>
+				</p>
 				<p>${price}</p>
 			</div>
 			<button
